@@ -88,6 +88,7 @@ h2 > a:hover{
   grid-row-gap: 50px;
   grid-column-gap: 50px;
   height: 175vh;
+  max-height: 1000px;
   padding: 25px;
   margin-bottom: 50px;
   overflow-y: scroll;
