@@ -99,4 +99,8 @@ img{
   #about-me-profile-wrapper{
    flex-direction: column;
   }
+   
+  #about-me-family-wrapper > img{
+     margin: 10px 0px;
+   }
 }
