@@ -11,6 +11,7 @@ a:hover{
   color: #f3f3f3 !important;
   background-color: #ba8d26 !important;
   border-color: #ba8d26 !important;
+  justify-self: flex-start !important;
 }
 
 .btn-primary:hover{
