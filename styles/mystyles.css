@@ -103,4 +103,8 @@ img{
   #about-me-family-wrapper > img{
      margin: 10px 0px;
    }
+   
+   #about-me-profile-wrapper > img{
+     margin-right: 0px;
+   }
 }
