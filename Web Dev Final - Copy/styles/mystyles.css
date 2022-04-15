@@ -1,0 +1,89 @@
+/* Overriding styles for both */
+a:hover{
+  color: #ba8d26 !important;
+}
+
+/* Overriding styles for index.html */
+.btn-primary{
+  color: #f3f3f3 !important;
+  background-color: #ba8d26 !important;
+  border-color: #ba8d26 !important;
+}
+
+.btn-primary:hover{
+  color: #f3f3f3 !important;
+  background-color: #b18623 !important;
+  border-color: #b18623 !important;
+}
+
+.post-preview:hover{
+  color: #ba8d26 !important;
+}
+
+.video-preview > iframe{
+  width: 100%;
+  height: 400px;
+}
+
+/* Overriding styles for about.html */
+#about-hero-link-wrapper{
+  display: flex;
+  margin-top: 25px;
+  /* flex-direction: column; */
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+#about-hero-link-wrapper > a{
+  color: #fff !important;
+  margin: 0px;
+  padding: 0px 10px;
+}
+
+#about-hero-link-wrapper > a:hover{
+  color: #ba8d26 !important;
+}
+
+#about-hero-link-wrapper > span{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#about-masthead{
+  background-position: center top -70px;
+}
+
+img{
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+#about-me-profile-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-me-family-wrapper{
+  margin: 75px 0px;
+}
+
+#about-me-profile-wrapper > img{
+  width: 300px;
+  height: 300px;
+  margin-right: 25px;
+  border-radius: 100%;
+}
+
+#about-me-family-wrapper > img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 25px;
+  border-radius: 10%;
+}
+
+
+#about-me-resume-wrapper > p > a{
+  text-decoration: none;
+  color: #ba8d26 !important;
+}
