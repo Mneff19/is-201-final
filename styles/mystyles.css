@@ -94,3 +94,9 @@ img{
   text-decoration: none;
   color: #ba8d26 !important;
 }
+
+@media only screen and (max-device-width: 720px){
+  #about-me-profile-wrapper{
+   flex-direction: column;
+  }
+}
